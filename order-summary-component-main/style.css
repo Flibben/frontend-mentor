@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+}
+.container{
+    display: flex;
+    padding: 50px;
+}
+.card{
+    background: white;
+    width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.top-image{
+    border-radius: 10px;
+}
+.bottom-part{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+h1{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-weight: 900;
+}
+p{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-weight: 700;
+}
+.price-plan{
+    margin: 15px 0px 15px 0px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 20px;
+    background:hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-around;
+    
+}
+img.price-plan{
+    align-self: center;
+}
+.change{
+    align-self: center;
+}
+div.flex-col{
+    align-self: center;
+}
+.button-payment{
+    margin: 15px 0px 15px 0px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    background: hsl(245, 75%, 52%);
+    width: 100%;
+}
+.cancel{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
