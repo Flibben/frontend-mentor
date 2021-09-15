@@ -36,9 +36,11 @@ h1{
     font-weight: 900;
 }
 p{
-    padding: 20px 0px 20px 0px;
+    padding: 0px 15px 20px 15px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 200%;
+    color: grey;
 }
 .price-plan{
     margin: 15px 0px 15px 0px;
@@ -49,15 +51,24 @@ p{
     justify-content: space-around;
     
 }
-img.price-plan{
+.price-plan img{
     align-self: center;
+}
+.pricing{
+    color: grey;
+    font-weight: 700;
+    line-height: 200%;
 }
 .change{
     align-self: center;
 }
-div.flex-col{
+.flex-col{
     align-self: center;
 }
+.flex-col div h2 {
+    font-weight: 900;
+}
+
 .button-payment{
     margin: 15px 0px 15px 0px;
     padding: 20px 0px 20px 0px;
@@ -66,8 +77,25 @@ div.flex-col{
     color:white;
     background: hsl(245, 75%, 52%);
     width: 100%;
+    box-shadow: 0px 25px 20px hsl(225, 100%, 94%);
 }
-.cancel{
+.button-payment:hover{
+    opacity: 50%;
+}
+.cancel h2{
     padding: 20px 0px 20px 0px;
     text-align: center;
+    font-weight: 900;
+    color:grey;
+}
+.cancel h2:hover{
+    color: black;
+}
+.change{
+    font-weight: 900;
+    
+}
+.change a:hover{
+    text-decoration: none;
+    opacity: 50%;
 }
